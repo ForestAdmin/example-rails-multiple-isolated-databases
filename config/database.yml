@@ -1,0 +1,10 @@
+development:
+  adapter: postgresql
+  database: forest_meals
+  encoding: unicode
+  host: localhost
+  port: 5446
+  username: forest
+  password: secret
+  pool: 5
+  timeout: 5000

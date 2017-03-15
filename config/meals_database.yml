@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: forest_meals
+  host: localhost
+  port: 5446
+  username: forest
+  password: secret

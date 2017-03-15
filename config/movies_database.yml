@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: forest_movies
+  host: localhost
+  port: 5445
+  username: forest
+  password: secret
