@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :forest do
+    # Actions
+    post '/actions/approve-comment' => 'comments#approve'
+
+    # Smart fields
+    get '/movies/:movie_id/products' => 'products#index'
+  end
+
   mount ForestLiana::Engine => '/forest'
 end
