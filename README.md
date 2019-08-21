@@ -9,3 +9,9 @@ This is a demo application with [Forest Admin](https://www.forestadmin.com) inst
 - Customer
 - Comment (belongs_to :movie)
 - Movie (has_many :comments)
+
+## Community
+
+👇 Join our Slack community of +1000 developers
+
+[![Slack Status](http://community.forestadmin.com/badge.svg)](https://community.forestadmin.com)
